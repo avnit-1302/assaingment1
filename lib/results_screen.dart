@@ -43,7 +43,7 @@ class ResultsScreen extends StatelessWidget {
     } else if (scorePercentage >= 25) {
       return 'You should be ashamed of yourself, go back to kindergarden';
     } else {
-      return 'Keep practicing!';
+      return 'Nah, this is actually bad!';
     }
   }
 
