@@ -37,11 +37,11 @@ class ResultsScreen extends StatelessWidget {
     if (scorePercentage == 100) {
       return 'Nah, you actually good, GG';
     } else if (scorePercentage >= 75) {
-      return 'wæow, GRAPE!';
+      return 'Wæow, GRAPE!';
     } else if (scorePercentage >= 50) {
       return 'Bruv, this is not good, get yourself together';
     } else if (scorePercentage >= 25) {
-      return 'You should be ashamed of yourself, go back to kindergarden';
+      return 'You should be ashamed of yourself, take a bolle';
     } else {
       return 'Nah, this is actually bad!';
     }
